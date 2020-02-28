@@ -1,0 +1,96 @@
+    1  tail /var/log/messages 
+    2  tail -f /var/log/messages 
+    3  kubectl get nodes
+    4  exit
+    5  dnf install telnet
+    6  cat /etc/redhat-release 
+    7  yum install telnet
+    8  exit
+    9  clear
+   10  pwd
+   11  ls -lrth
+   12  exit
+   13  mv /var/lib/jenkins/.kube/config /home
+   14  ls -lrth
+   15  cd ..
+   16  find . -name config 
+   17  pwd
+   18  cd /var/lib/jenkins/
+   19  ls -lrtha
+   20  find . -name config
+   21  find /home -name config
+   22  cp /home/vagrant/.kube/config /var/lib/jenkins/.kube/
+   23  mkdir -p /var/lib/jenkins/.kube 
+   24  cp /home/vagrant/.kube/config /var/lib/jenkins/.kube/
+   25  systemctl restart jenkins
+   26  cd /var/lib/jenkins/.kube
+   27  chown jenkins:jenkins config
+   28  ls -ld
+   29  rm -r /var/lib/jenkins/.kube
+   30  cp -rp /home/vagrant/.kube /var/lib/jenkins/
+   31  systemctl restart jenkins
+   32  cd /var/lib/jenkins/.kube
+   33  chown jenkins:jenkins config
+   34  ls -lrth
+   35  cat /var/lib/jenkins/workspace/FreeStyleProject
+   36  cd /var/lib/jenkins/workspace/FreeStyleProject
+   37  ls -lrth
+   38  cat Jenkins.Dockerfile
+   39  cd ~vagrant/
+   40  ls -lrth
+   41  cd docker-k8s
+   42  ls -lrth
+   43  vi Dockerfile 
+   44  git status
+   45  ls -lart
+   46  git status
+   47  git add .
+   48  git commit -m "apt get"
+   49  exit
+   50  mv /var/lib/jenkins/.kube/config /home
+   51  cp /home/<user>/config /var/lib/jenkins/.kube/
+   52  cp /home/maran/config /var/lib/jenkins/.kube/
+   53  ls -lrth /home
+   54  cp /home/vagrant/config /var/lib/jenkins/.kube/
+   55  restart jenkins
+   56  systemctl restart jenkins
+   57  systemctl status jenkins
+   58  systemctl status jenkins
+   59  git
+   60  cd
+   61  git add
+   62  git add mvn clean install
+   63  docker build -t java-web-app-cicd:latest .
+   64  if (docker ps -a | grep 'java-web-app-cicd'); then   docker stop java-web-app-cicd;   docker rm -f java-web-app-cicd; fi
+   65  docker run -d -p 8888:8080 --name java-web-app-cicd java-web-app-cicd
+   66  clear
+   67  git clone https://github.com/nareshmaran/jenkinproject.git
+   68  git clone https://github.com/nareshmaran/jenkinproject.git
+   69  ls -lrth
+   70  cd jenkinproject/
+   71  ls -lrth
+   72  https://github.com/vilasvarghese/docker-k8s.git
+   73  git clone https://github.com/nareshmaran/jenkinproject.git
+   74  sudo su
+   75  ls -lrt
+   76  cd jenkinproject/
+   77  ls -lrt
+   78  more Dockerfile
+   79  vi Dockerfile
+   80  git sttaus
+   81  git status
+   82  git add .
+   83  git commit -m "get apt"
+   84  exit
+   85  cd jenkinproject/jenkinproject/
+   86  ls -lrth
+   87  cat Dockerfile 
+   88  git config --global nareshmaran88@gmail.com
+   89  git config --global nareshmaran
+   90  git config --global user.email "nareshmaran88@gmail.com"
+   91  git config --global user.name "nareshmaran"
+   92  git status
+   93  git add .
+   94  git commit -m "apt get"
+   95  git push
+   96  history >> historyfile
